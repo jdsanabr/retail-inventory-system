@@ -52,3 +52,26 @@ Insert initial test data using seed_data.sql.
 Verified schema creation and data insertion:
 Viewed and edited data directly in pgAdmin.
 
+
+# How to Run the Project Locally
+1. Clone the Repository:
+  git clone [repository-link]
+  cd retail-inventory-system
+
+2. Run the SQL Scripts:
+Open create_schema.sql and seed_data.sql in pgAdmin or another SQL client.
+Execute the scripts to set up the database.
+
+3. Start the Backend:
+  cd backend
+  npm install
+  node src/server.js
+
+4. Start the Frontend:
+  cd ../frontend
+  npm install
+  npm start
+
+5. Access the Application:
+- Frontend: http://localhost:3000
+- Backend API: http://localhost:5000/api
