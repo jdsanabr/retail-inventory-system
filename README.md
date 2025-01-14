@@ -2,8 +2,8 @@
 
 A full-stack JavaScript application that simulates a retail inventory management system, inspired by software used in stores like Hollister Co. The system allows users to add clothing items to inventory, manage stock, and track transactions.
 
-1. Installed and Set Up the Technology Stack
-Installed and configured the following tools and frameworks:
+1. Technology Stack
+Frameworks:
 Backend: Node.js with Express.js
 Database: PostgreSQL
 Frontend: React.js
