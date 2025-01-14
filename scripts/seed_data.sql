@@ -1,6 +1,6 @@
-INSERT INTO users (name, email) VALUES
-('Alice Johnson', 'alice@example.com'),
-('Bob Smith', 'bob@example.com');
+INSERT INTO users (name) VALUES
+('Alice Johnson'),
+('Bob Smith');
 
 INSERT INTO products (name, description, price, quantity) VALUES
 ('T-shirt', 'A basic T-shirt', 19.99, 50),
